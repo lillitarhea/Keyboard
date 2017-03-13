@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
                         latency = press-prev_release;
                     }
                     p.addElement(press);
-                    //System.out.println("The keypress time is " + press);
+                    System.out.println("The keypress time is " + press);
 
 
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
